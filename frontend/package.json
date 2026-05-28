@@ -1,0 +1,23 @@
+{
+  "name": "cv-marketplace-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "axios": "^1.5.0",
+    "react-query": "^3.39.3",
+    "react-dropzone": "^14.2.3",
+    "@stripe/stripe-js": "^2.0.0",
+    "react-markdown": "^8.0.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1"
+  }
+}
