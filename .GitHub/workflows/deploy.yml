@@ -1,0 +1,13 @@
+name: Deploy
+on: push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build backend
+        run: docker build -t cv-backend -f Dockerfile.backend .
+      - name: Build frontend
+        run: docker build -t cv-frontend -f Dockerfile.frontend .
+      - name: Deploy
+        run: echo "Deploy step – add your SSH deploy script"
